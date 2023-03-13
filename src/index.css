@@ -1,13 +1,68 @@
-body {
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
+} */
 
-code {
+/* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+} */
+
+body{
+  margin: 0;
+  font-family: Ubuntu, sans-serif;
+  font-size: 1.125rem;
+  font-weight: 300;
 }
+@font-face{
+  src:url(./fonts/Ubuntu-Regular.ttf);
+  font-family:Ubuntu;
+  }
+  .container{
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+.container-flex{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+} 
+h1, h2, h3{
+  font-family: 'Lora',serif;
+  font-weight: 400;
+  color: #143774;
+  margin-top: 0;
+}
+h1{
+  font-size: 2rem;
+  margin: 0;
+}
+h3{
+  color: #1792d2;
+}
+a{
+  color: #1792d2;
+  font-weight: bolder;
+}
+a:hover, a:focus{
+  color: #143774;
+}
+strong{
+  font-weight: 700;
+}
+img{
+  max-width: 100%;
+  display: block;
+}
+.image-full{
+  max-height: 300px;
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 2em;
+}
+

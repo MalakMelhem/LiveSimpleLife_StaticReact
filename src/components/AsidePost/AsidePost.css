@@ -1,0 +1,26 @@
+.widget-title, .widget-recent-post-title{
+    font-size: 1rem;
+}
+.widget-title{
+    font-family: Ubuntu, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.widget-recent-post-title{
+    color: #143774;
+    text-align: left;
+}
+.widget-recent-post{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #707070;
+    margin-bottom: 1em;
+}
+.widget-recent-post:last-child{
+    border: 0;
+    margin: 0;
+    
+}
+.widget-img{
+    order: -1;
+}
